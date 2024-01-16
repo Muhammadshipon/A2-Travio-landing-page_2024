@@ -1,1 +1,101 @@
-body{color: aqua;}
+
+    /*share styles*/
+
+*{font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 0;padding: 0;}
+
+p{font-size: 16;color: rgba(19, 19, 24, 0.70);
+
+  font-family: Mulish;;}
+
+.btn-primary{text-align: center;font-weight: 700;width: 174px;
+  height: 52px;border-radius: 8px;
+  background: #FF5400;color: #fff;display: flex;align-items: center;
+gap:10px ; justify-content: center;border:none;}
+
+
+    /*nav styles*/
+
+ nav{display: flex;justify-content: space-between;
+margin: 20px auto;max-width: 1140px;}
+
+    .nav-icon{ display: flex;
+  align-items: center;}
+
+  .nav-icon img{
+    width: 50px;margin-right: 10px;
+  }
+  .nav-icon h1{font-size:  36px;;
+    color: #131318;font-weight: 800;}
+
+    .nav-icon span{color: #FF5400;;}
+  
+    .nav-item ul{display: flex;}
+
+    .nav-item li{list-style: none;
+    margin: 20px;font-size: 18px;}
+
+    .nav-item li a{text-decoration: none;color: #424247
+    }
+    .nav-item li span{color: #FF5400;}
+
+    .nav-menu-icon{display: none;}
+
+
+
+
+           /*Banner section style*/
+  
+    .banner{background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+      max-width: 1140px;height: 500PX; margin: 0 auto;
+      border-radius: 16px; text-align: center; color: #fff;
+      }   
+    .banner h1{font-size: 55px;font-weight: 800px; padding: 100px 0 30px;}   
+    .banner p{color: #fff;}
+    .input-form{display:flex;
+      padding: 16px;justify-content: center;
+      align-items: center;width: 60%;
+      gap: 24px;border-radius: 8px;
+      background: rgba(255, 255, 255, 0.30);margin:50px auto;}
+      .input-form input,select{width: 174px;
+        height: 52px;border-radius: 8px;padding-left: 30px;
+      box-sizing: border-box;}
+
+
+                   /*our popular tour style*/
+
+    .popular-tour-container{display: flex;
+    max-width: 1140px; margin: 100px auto;}  
+    
+    .popular-tour-description {margin-right: 20px;}
+    .popular-tour-description h2{color: #131318;
+      font-size: 40px;margin-bottom: 30px;
+      font-weight: 800;
+    }
+    .popular-tour-description ul{color:rgba(19, 19, 24, 0.70);
+    margin:30px 15px;}
+       
+    .popular-tour-description ul li{padding: 10px;}
+
+    .popular-tour-description button{margin-top: 20px;}
+
+          /*Responsive for mobile device*/
+
+    @media screen and (max-width:600px) {
+      nav{padding: 10px;}
+     .nav-item{display: none;}
+     .nav-menu-icon{display: block;}
+     .nav-menu-icon img{width: 50px;}
+
+
+     .banner{margin: 0 15px;}
+     .input-form,.popular-tour-container{flex-direction: column;margin: 30px auto;}
+      .banner h1{font-size: 35px;padding: 20px 10px;}
+
+
+      .popular-tour-img img{width: 100%;}
+    
+    .popular-tour-description,.popular-tour-img{
+margin: 30px 15px;
+    }
+  }

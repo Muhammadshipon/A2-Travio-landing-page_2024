@@ -2,7 +2,7 @@
     /*share styles*/
 
 *{font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-margin: 0;padding: 0;}
+margin: 0;padding: 0;box-sizing: border-box;}
 
 p{font-size: 16;color: rgba(19, 19, 24, 0.70);
 
@@ -121,6 +121,29 @@ margin: 20px auto;max-width: 1140px;}
       .destination-img-container{display: grid;grid-template-columns: repeat(4,1fr);
       gap:10px}
 
+
+                 /*why choose us ? styles*/
+  .why-choose-us-container{margin: 30px auto;
+  max-width: 1140px;}
+      .why-choose-us-container h2{font-size: 40px;font-weight: 600;color: #131318
+        ;text-align: center; margin: 30px auto;}
+
+        .why-choose-us-container> p{text-align: center; max-width: 600px;
+        margin: 10px auto;}
+       
+        .child-container{display: flex; margin: 50px auto; justify-content: space-between;}
+        .hotels,.service,.best-price{max-width: 45%;}
+        .hotels img,.service img,.best-price img{width: 30px;margin-bottom: 30px;}
+        .hotels h3,.service h3,.best-price h3{margin-bottom: 20px;}
+        .best-price{margin: 30px auto;}
+
+        .hotels{border-radius: 16px;
+          border: 1px solid rgba(251, 181, 99, 0.20);
+          background: rgba(251, 181, 99, 0.05);padding: 40px 20px;}
+          .best-price,.service{border-radius: 16px;
+            border: 1px solid rgba(41, 206, 246, 0.20);
+            background: rgba(41, 206, 246, 0.05);padding: 40px 20px ;}
+        
           /*Responsive for mobile device*/
 
     @media screen and (max-width:600px) {
@@ -145,5 +168,10 @@ margin: 30px 15px;
      .destination-container p{max-width: 350px;}
     .destination-img-container{display: flex;
     flex-direction: column;}
+
+    .why-choose-us-container>p{max-width: 300px;}
+    .child-container{flex-direction: column; gap:40px}
+
+    .hotels,.best-price,.service{max-width: 330px; margin: 0 auto;}
     
   }

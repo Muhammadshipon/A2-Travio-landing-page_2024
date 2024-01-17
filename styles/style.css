@@ -143,14 +143,57 @@ margin: 20px auto;max-width: 1140px;}
           .best-price,.service{border-radius: 16px;
             border: 1px solid rgba(41, 206, 246, 0.20);
             background: rgba(41, 206, 246, 0.05);padding: 40px 20px ;}
+
+
+
+                /*New letter section style*/
+
+        .news-letter{max-width: 1140px; margin: 50px auto;display: flex;gap: 40px;}        
+        .information-form{border: 2px solid orangered; border-radius: 10px;padding: 30px;
+        height: 425px;}
+        .information-form>p{margin: 20px 0px ;}
+        hr{margin: 30px 8px;}
+        .information-form input{display: block; max-width: 400px;padding: 20px 30px;
+        margin-bottom: 30px; border-radius: 10px;border: none;background: cornsilk;
+      border: 1px solid orange;}
+        input[type="submit"]{color: #fff;background-color: #FF5400;}
+
+        .travel-com-1{width:300px;background: #FF5400;padding: 30px 50px;
+        color:#fff;border-radius: 10px;transform: rotate(-35deg); 
+      position: relative; left: 300px;bottom: 200px;}
+         
+        .travel-com-2{display: none;}
+
+
+              /*footer style*/
+footer{max-width: 1300px;background-color: rgba(19, 19, 24, 0.05);margin: 0 auto;}
+              .footer-icon{ display: flex; max-width: 200px;
+                align-items: center; margin: 50px auto;padding-top: 50px;
+              text-align: center;}
+              
+                .footer-icon img{
+                  width: 50px;margin-right: 10px;
+                }
+                .footer-icon h1{font-size:  36px;;
+                  color: #131318;font-weight: 800;}
+              
+                  .footer-icon span{color: #FF5400;;}
+       footer p{text-align: center; margin: 20px auto;padding-bottom: 10px;} 
         
-          /*Responsive for mobile device*/
+       .footer-img {max-width: 200px; text-align: center;padding: 20px 0px;margin: 0 auto;}
+       .footer-img img{width: 40px;}
+       footer hr{max-width: 1000px;margin: 20px auto;}
+
+
+
+
+        /*Responsive for mobile device*/
 
     @media screen and (max-width:600px) {
       nav{padding: 10px;}
      .nav-item{display: none;}
      .nav-menu-icon{display: block;}
-     .nav-menu-icon img{width: 50px;}
+     .nav-menu-icon img{width: 50px; margin: 20px auto;}
 
 
      .banner{margin: 0 15px;}
@@ -170,8 +213,21 @@ margin: 30px 15px;
     flex-direction: column;}
 
     .why-choose-us-container>p{max-width: 300px;}
-    .child-container{flex-direction: column; gap:40px}
+    .news-letter,.child-container{flex-direction: column; gap:40px}
 
-    .hotels,.best-price,.service{max-width: 330px; margin: 0 auto;}
+    .hotels,.best-price,.service{max-width: 330px; margin: 0 auto;
+  }
+  .information-form{max-width: 320px; margin: 10px auto;height: 450px;}
+  .information-img{margin: 10px auto;max-width: 320px; position: relative;}
+.information-img img{width: 100%;position: relative; }
+.travel-com-1{display: none;}
+.travel-com-2{width:200px;background: #FF5400;padding: 20px 20px;
+  color:#fff;border-radius: 10px;transform: rotate(-25deg); 
+display: block;position: relative;left: 50px;bottom: 110px;}
+
+footer{max-width: 350px;margin: 0px auto;}
+footer p, footer hr{max-width: 250px;}
     
   }
+
+  

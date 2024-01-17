@@ -79,6 +79,48 @@ margin: 20px auto;max-width: 1140px;}
 
     .popular-tour-description button{margin-top: 20px;}
 
+
+
+           /*choose your destination styles*/
+
+    .destination-container{max-width: 1140px;margin: 50px auto;
+    }  
+    
+    .destination-container h2{color: #131318;
+      font-size: 40px;text-align: center;
+      font-weight: 800; margin-bottom: 30px;}
+
+      .destination-container p{width: 700px;margin: 0px auto 50px;
+      text-align: center;}
+
+      
+
+      .destination-img-container >div{height: 300px;background-repeat: no-repeat;
+      background-size: cover;border-radius: 10px;display: flex;justify-content: center;
+    align-items: center;} 
+      
+  .destination-img-container h3{color: #fff;font-size: 30px;}
+
+      .Maldives{background:url(Images/Rectangle\ 5.png) ;
+      grid-column: span 2;}
+
+      .Indonesia{background: url(Images/Rectangle\ 8.png);
+      grid-column: span 2;}
+
+      .Srilanka{background: url(Images/Rectangle\ 6.png);}
+
+      .North-America{background: url(Images/Rectangle\ 7.png);grid-column: span 2;}
+
+      .Kashmir{background: url(Images/Rectangle\ 9.png);}
+
+      .Bangladesh{background: url(Images/Rectangle\ 11.png);}
+
+      .Bandarban{background: url(Images/Rectangle\ 10.png);grid-column: span 3;}
+      
+      .destination-img-container img{width: 100%;background:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray -101px -108.075px / 135.253% 172.05% no-repeat; }
+      .destination-img-container{display: grid;grid-template-columns: repeat(4,1fr);
+      gap:10px}
+
           /*Responsive for mobile device*/
 
     @media screen and (max-width:600px) {
@@ -90,12 +132,18 @@ margin: 20px auto;max-width: 1140px;}
 
      .banner{margin: 0 15px;}
      .input-form,.popular-tour-container{flex-direction: column;margin: 30px auto;}
-      .banner h1{font-size: 35px;padding: 20px 10px;}
+      .banner h1,.destination-container h2{font-size: 30px;padding: 20px 10px;}
 
 
-      .popular-tour-img img{width: 100%;}
+      .popular-tour-img img,.destination-img-container img{width: 100%;}
     
     .popular-tour-description,.popular-tour-img{
 margin: 30px 15px;
     }
+
+    .destination-container{margin: 30px 15px;}
+     .destination-container p{max-width: 350px;}
+    .destination-img-container{display: flex;
+    flex-direction: column;}
+    
   }

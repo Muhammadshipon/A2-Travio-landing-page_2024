@@ -153,7 +153,7 @@ margin: 20px auto;max-width: 1140px;}
         height: 425px;}
         .information-form>p{margin: 20px 0px ;}
         hr{margin: 30px 8px;}
-        .information-form input{display: block; max-width: 400px;padding: 20px 30px;
+        .information-form input{display: block; width: 400px;padding: 20px 30px;
         margin-bottom: 30px; border-radius: 10px;border: none;background: cornsilk;
       border: 1px solid orange;}
         input[type="submit"]{color: #fff;background-color: #FF5400;}
@@ -217,6 +217,7 @@ margin: 30px 15px;
 
     .hotels,.best-price,.service{max-width: 330px; margin: 0 auto;
   }
+  .information-form input{max-width: 200px;}
   .information-form{max-width: 320px; margin: 10px auto;height: 450px;}
   .information-img{margin: 10px auto;max-width: 320px; position: relative;}
 .information-img img{width: 100%;position: relative; }

@@ -51,7 +51,7 @@ margin: 20px auto;max-width: 1140px;}
       border-radius: 16px; text-align: center; color: #fff;
       }   
     .banner h1{font-size: 55px;font-weight: 800px; padding: 100px 0 30px;}   
-    .banner p{color: #fff;}
+    .banner p{color: #fff;text-align: center; }
     .input-form{display:flex;
       padding: 16px;justify-content: center;
       align-items: center;width: 60%;
